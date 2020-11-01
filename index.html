@@ -1,13 +1,13 @@
- <!DOCTYPR html>
+<!DOCTYPR html>
 
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Birthday-The NITESH_SUWALKA </title>
+        <title>Birthday-Ajay</title>
         
         <!-- Link CSS Style.css file-->
         
-        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
 
         <style>
 
@@ -84,7 +84,9 @@ div#sea {
   bottom: 0px;
   top: 0px;
   background-color: #d44;
+  /* background-image: url("https://cdn.pixabay.com/photo/2019/06/03/02/54/smoke-and-mirrors-4248008__340.jpg"); */
   transition: background-color .5s ease;
+  /* transition:background-image .5s ease; */
 }
 
 .giftbox {
@@ -478,9 +480,9 @@ div#sea {
     </head>
     <body>
         <div class='moon'>
-            <div class='crater1'></div>
-            <div class='crater2'></div>
-            <div class='crater3'></div>
+          <div class='crater1'></div>
+          <div class='crater2'></div>
+          <div class='crater3'></div>
         </div>
         
         <canvas id="canvas"></canvas>
@@ -491,47 +493,51 @@ div#sea {
         <img src="https://dl.dropbox.com/s/2k0mtrxc2dqurmh/jumping.png" alt="Jumping-people" id="people" />
         
         <div id="merrywrap" class="merrywrap">
-            <div class="giftbox">
-                <div class="cover">
-                    <div></div>
-                </div>
-                
-                <div class="box"></div>
+          <div class="giftbox">
+            <div class="cover">
+              <div></div>
             </div>
             
-            <div class="icons">
-                <div class="row">
-                    <span>H</span>
-                    <span>a</span>
-                    <span>p</span>
-                    <span>p</span>
-                    <span>y</span>
-                    
-                </div>
-                <div class="row">
-                    <span>B</span>
-                    <span>i</span>
-                    <span>r</span>
-                    <span>t</span>
-                    <span>h</span>
-                    <span>d</span>
-                    <span>a</span>
-                    <span>y</span>
-                </div>
-                
-                <div class="row">
-                    <span>E</span>
-                    <span>n</span>
-                    <span>g</span>
+            <div class="box"></div>
+          </div>
+          <!-- <img src="http://i.xp.io/1cclLSDS.png" alt="" srcset=""> -->
+          
+          <div class="icons">
+            <div class="row">
+              <span>H</span>
+              <span>a</span>
+              <span>p</span>
+              <span>p</span>
+              <span>y</span>
+              
+            </div>
+            <div class="row">
+              <span>B</span>
+              <span>i</span>
+              <span>r</span>
+              <span>t</span>
+              <span>h</span>
+              <span>d</span>
+              <span>a</span>
+              <span>--</span>
+              <span>A</span>
+              <span>J</span>
+            </div>
+            
+            <div class="row">
+              <span>A</span>
+              <span>J</span>
+              <img id="aj_img" src="http://i.xp.io/1ccqjISg.png" alt="" srcset="">
+              <!-- <img id="aj_img"src="http://i.xp.io/1ccqjISg.png" alt="" srcset="">
+              <img id="aj_img" src="http://i.xp.io/1ccqjISg.png" alt="" srcset=""> -->
+                    <!-- <span>g</span>
                     <span>i</span>
                     <span>n</span>
                     <span>e</span>
 
                     <span>e</span>
                     <span>r</span>
-                    <span>
-                        -
-                    </span>
+                    <span>-</span>
                    
 
                     <span>N</span>
@@ -539,7 +545,7 @@ div#sea {
                     <span>T</span>
                     <span>E</span>
                     <span>S</span>
-                    <span>H</span>
+                    <span>H</span> -->
                 </div>
             </div>
         </div>
@@ -547,7 +553,14 @@ div#sea {
         <div id="video"></div>
         
         
-        <script src="js/index.js">
+
+        <!-- src="js/index.js" -->
+        <script  >
+
+          function imges(){
+            document.getElementById("aj_img").innerHeight="display:none"
+
+          }
         
 window.requestAnimFrame = function () {
   return window.requestAnimationFrame ||
